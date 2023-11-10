@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours HTML</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" >
+</head>
+<body>
+    <!-- Début du header -->
+    <header>
+        <!-- Début conteneur logo -->
+        <div>
+            <img src="assets/img/logo.png" alt="Logo" >
+        </div>
+        <!-- Fin conteneur logo -->
+        
+        <!-- Début Menu -->
+        <nav role="navigation" >
+            <ul>
+                <li><a href="index.html" >Accueil</a></li>
+                <li><a href="#presentation" >Présentation</a></li>
+                <li><a href="#competence" >Compétence</a></li>
+                <li><a href="#experience" >Expérience</a></li>
+                <li><a href="contact.html" >Me contacter</a></li>
+            </ul>
+        </nav>
+        <!-- Fin Menu -->
+    </header>
+    <!-- Fin du header -->
+
+    <!-- Début conteneur -->
+    <div class="container" >
+        <div id="Gauche" >
+            <figure>
+                <img src="assets/img/photo.png" alt="photo" >
+                <figcaption>abdAllah 53 ans</figcaption>
+            </figure>
+            <p>Permis B</p>
+
+            <h3>Passions</h3>
+            <ul>
+                <li>Le développement</li>
+                <li>La Lecture</li>
+                <li>Le cinéma</li>
+            </ul>
+        </div>
+
+        <div id="Droite" >
+            <h1>Bienvenue sur mon CV</h1>
+            <p>
+                Je m'apelle abdAllah, je suis dévelopeur WEB
+                <small>(En formation CCI)</small>.
+            </p>
+
+            <section id="presentation">
+                <p>Le développement Web désigne de manière générale les tâches associées au développement de sites Web destinés à être hébergés via un intranet ou Internet. Le processus de développement web comprend, entre autres, la conception de sites web, le développement de contenu web, l’élaboration de scripts côté client ou côté serveur et la configuration de la sécurité du réseau.</p>
+                <p>Le développement Web est le codage ou la programmation qui permet de faire fonctionner un site Web, selon les exigences du propriétaire. Il traite principalement de l’aspect non conceptuel de la création de sites Web, qui comprend le codage et l’écriture du balisage.</p>
+            </section>
+            
+            <section id="competences">
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ol>
+                <ol start="4" >
+                    <li>PHP</li>
+                    <li>SQL</li>
+                    <li>Symfony</li>
+                </ol>
+            </section>
+            
+            <section id="experiences">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Début</th>
+                            <th>Fin</th>
+                            <th>Entrerise</th>
+                            <th>Poste</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2012</td>
+                            <td>2020</td>
+                            <td>Spams & Cookies</td>
+                            <td>Développeur WEB</td>
+                        </tr>
+                        <tr>
+                            <td>2005</td>
+                            <td>2012</td>
+                            <td>Des codes et decoder</td>
+                            <td>Développeur WEB</td>
+                        </tr>
+                        <tr>
+                            <td>1998</td>
+                            <td>2005</td>
+                            <td>WEB 1 alors !</td>
+                            <td>Développeur WEB</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>1998</td>
+                            <td>Le bon des clics</td>
+                            <td>Développeur WEB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+    <!-- Fin conteneur -->
+
+    <!-- Début du footer -->
+    <footer>
+        <div class="col" id="col1">
+            <address>
+                <p>255 rue du code ascii</p>
+                <p>18000 Bourges</p>
+                <p>Tél: <a href="tel:0606060606" >06 06 06 06 06</a></p>
+            </address>
+        </div>
+        <div class="col" id="col2">
+            <nav class="footer" >
+                <ul>
+                    <li><a href="mentions.html" >Mentions légales</a></li>
+                    <li><a href="contact.html" >Me contacter</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col" id="col3">
+            <a href="#" target="_blank" ><img src="assets/img/fb.png" alt="facebook" /></a>
+            <a href="#" target="_blank" ><img src="assets/img/insta.jpg" alt="insta" /></a>
+            <a href="#" target="_blank" ><img src="assets/img/in.png" alt="in" /></a>
+            <a href="#" target="_blank" ><img src="assets/img/twitter.png" alt="twitter" /></a>
+        </div>
+    </footer>
+    <!-- Début du footer -->
+</body>
+</html>
